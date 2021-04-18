@@ -2,6 +2,9 @@
 # Cálculo dos dias úteis no Postgresql
 *Como criar uma VIEW com parâmetros de entrada para calcular os dias úteis de uma data, e além*
 
+Você também pode ler a este artigo no **medium** 
+[Cálculo dos dias úteis no Postgresql](https://rickrochaso.medium.com/c%C3%A1lculo-dos-dias-%C3%BAteis-no-postgresql-76be47470647)
+
 ## Solução do Marcos 
 
 ```sql
@@ -67,7 +70,7 @@ FROM generate_series
 ```
 
 ## Resultado da saída no console 
-### Parâmetros :inicio='2020-01-01' :fim='2022-12-31' 
+### Parâmetros :inicio='2020-01-01' :termino='2022-12-31' 
 ```json
 [
 {"mes": "2020-01-01", "diasuteis": 23}
